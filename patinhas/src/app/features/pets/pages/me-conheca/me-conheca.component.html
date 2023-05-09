@@ -1,0 +1,14 @@
+<app-header></app-header>
+<h1>Olá, ainda estamos em construção!</h1>
+<h2>Página de detalhes</h2>
+
+<div ng-if="pet">
+  <div class="card">
+    <h2>Nome: {{ pet?.name }}</h2>
+    <img src="{{ pet?.img }}" alt="imagem cachorro" />
+    <h3>{{ pet?.description }}</h3>
+   
+  </div>
+</div>
+
+<app-footer></app-footer>

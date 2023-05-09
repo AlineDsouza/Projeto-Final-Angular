@@ -1,0 +1,14 @@
+<h1>Lista de Amigos</h1>
+
+<div  class="container">
+
+    <div *ngFor="let item of pets">
+        <div class="card">
+            <h2>Nome: {{item.name}}</h2>
+            <img src="{{item.img}}" alt="imagem cachorro">
+            <h3>{{item.description}}</h3>
+            <button type="submit" class="button" (click)="navigateToKnowMe(item.id)">Me conheça!</button>
+        </div>
+        
+    </div>
+</div>
