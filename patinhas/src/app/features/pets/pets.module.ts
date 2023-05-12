@@ -4,6 +4,7 @@ import { ListaPetComponent } from './components/lista-pet/lista-pet.component';
 import { PetsComponent } from './pages/pets/pets.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { MeConhecaComponent } from './pages/me-conheca/me-conheca.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -15,7 +16,7 @@ import { MeConhecaComponent } from './pages/me-conheca/me-conheca.component';
   ],
   imports: [
     CommonModule,
-    SharedModule
+    SharedModule,
   ],
   exports:[
     PetsComponent

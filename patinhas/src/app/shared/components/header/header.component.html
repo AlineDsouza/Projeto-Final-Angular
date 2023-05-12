@@ -1,12 +1,13 @@
 <nav class="container">
-    <div class="logo">Patinhas</div>
-    <ul class="menu">
-        <li (click)="navigateByUrl('home')">Home</li>
-        <li (click)="navigateByUrl('pets')">Adote</li>
-        <li (click)="navigateByUrl('contact')">Contact</li>
-    </ul>
-    <div class="login">
-        <span (click)="navigateByUrl('login')">login</span>
-    </div>
-
+  <div class="logo" [routerLink]="['home']">Patinhas</div>
+  <ul class="menu">
+    <li [routerLink]="['home']">Home</li>
+    <li [routerLink]="['pets']" >Pets</li>
+    <li [routerLink]="['contact']" >Contact</li>
+  </ul>
+  <div class="login">
+    <span [routerLink]="['login']">login</span>
+   
+   
+  </div>
 </nav>

@@ -1,0 +1,26 @@
+.banner{
+    background-color:rgb(229, 220, 236) ;
+    height: 500px;
+    h1{
+        color: white;
+        font-size: 4rem;
+        font-weight: bold;
+        top: 30%;
+        left: 20%;
+        position: absolute;
+    }
+    button{
+        top: 45%;
+        left: 50%;
+        position: absolute;
+        text-decoration: none;
+        padding: 10px 22px;
+        border: none;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+        background-color: #9077b8; 
+        color: white;
+        cursor: pointer;
+    }
+}
+

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-entrar',
   templateUrl: './entrar.component.html',
@@ -7,4 +8,15 @@ import { Component } from '@angular/core';
 })
 export class EntrarComponent {
 
+
+constructor(){
+
 }
+
+ngOnInit(): void{
+
+}
+
+}
+
+

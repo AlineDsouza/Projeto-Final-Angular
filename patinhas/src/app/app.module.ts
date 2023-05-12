@@ -7,20 +7,22 @@ import { HomeModule } from './features/home/home.module';
 import { LoginModule } from './features/login/login.module';
 import { ContactModule } from './features/contact/contact.module';
 import { PetsModule } from './features/pets/pets.module';
+import { SharedModule } from "./shared/shared.module";
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HomeModule,
-    LoginModule,
-    ContactModule,
-    PetsModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent
+    ],
+    providers: [],
+    bootstrap: [AppComponent],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        HomeModule,
+        LoginModule,
+        ContactModule,
+        PetsModule,
+        SharedModule
+    ]
 })
 export class AppModule { }

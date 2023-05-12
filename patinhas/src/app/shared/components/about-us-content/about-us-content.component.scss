@@ -1,0 +1,48 @@
+aside{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #f3f1f7;
+    height: 300px;
+    box-sizing: border-box;
+    h1{
+        margin: auto;
+        padding: auto;
+        font-size: 2rem;
+        
+    } 
+    p{
+        margin: auto;
+       
+        width: 50%;
+    }     
+}
+
+h1{
+    text-align: center;
+    margin: 1rem;
+}
+.step{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.container-cards{
+    display: flex;
+    align-items: center
+}
+.card{
+    background-color: #ceb8f2;
+    margin: 1rem;
+    padding: 1rem;
+    width: 40%;
+   
+    
+    h1{
+       
+      color: rgb(9, 9, 9);  
+    }
+    p{
+        text-align: center;
+    }
+}

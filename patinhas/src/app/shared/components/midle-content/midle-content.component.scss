@@ -1,0 +1,31 @@
+
+//segunda parte
+
+h1{
+    text-align: center;
+    margin: 1rem;
+}
+.step{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.container-cards{
+    display: flex;
+    
+}
+.card{
+    background-color: #ceb8f2;
+    margin: 1rem;
+    padding: 1rem;
+    width: 40%;
+   
+    
+    h1{
+       
+      color: rgb(9, 9, 9);  
+    }
+    p{
+        text-align: center;
+    }
+}
