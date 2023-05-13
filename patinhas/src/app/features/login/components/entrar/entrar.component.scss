@@ -7,7 +7,8 @@ main{
     align-items: center;
 }
 .login{
-    background-color: rgb(237, 215, 250);
+    color: white;
+    background-color: #5a007edc;
     width: 600px;
     height: 500px;
     border-radius: 4px;
@@ -17,7 +18,8 @@ main{
 .card{
     text-align: center;
     h2{
-        padding-top: 5rem;
+        padding-top: 3rem;
+        font-size: 2rem;
     }
     h3{
         padding-bottom: 3rem;
@@ -31,14 +33,15 @@ input {
     font-size: 20px;
     height: 50px;
     padding: 10px;
+    margin: 1rem;
 }
 button {
-    margin-top: 10px;
+    margin-top: 2rem;
     cursor: pointer;
     background-color: #4caf4f; 
     border: none;
     color: white;
-    padding: 10px 22px;
+    padding: 15px 60px;
     text-align: center;
     text-decoration: none;
     display: inline-block;

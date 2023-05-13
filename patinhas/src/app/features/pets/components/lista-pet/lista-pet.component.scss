@@ -11,14 +11,17 @@ h1{
 }
 
 .container{
-    height: 70vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    gap: 15px;
+    margin: auto;
+    width: 80%;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   flex-wrap: wrap; 
+   align-items: center;   
+    gap: 10px;
     color: rgb(45, 6, 73);
+    padding-bottom: 2rem;
+
 }
 .card {
     width: 300px;
