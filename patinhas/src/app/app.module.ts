@@ -9,6 +9,7 @@ import { ContactModule } from './features/contact/contact.module';
 import { PetsModule } from './features/pets/pets.module';
 import { SharedModule } from "./shared/shared.module";
 
+
 @NgModule({
     declarations: [
         AppComponent
@@ -22,7 +23,8 @@ import { SharedModule } from "./shared/shared.module";
         LoginModule,
         ContactModule,
         PetsModule,
-        SharedModule
+        SharedModule,
+       
     ]
 })
 export class AppModule { }

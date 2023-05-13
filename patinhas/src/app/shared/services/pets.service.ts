@@ -25,6 +25,8 @@ export class PetsService {
       description: 'Adora pesssoas e  brincar na água ',
       img: 'https://images.pexels.com/photos/3299898/pexels-photo-3299898.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     }
+    
+    
   ]
 
   constructor() { }

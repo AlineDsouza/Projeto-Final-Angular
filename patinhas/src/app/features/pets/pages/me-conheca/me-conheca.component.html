@@ -1,12 +1,23 @@
-<h1>Olá, ainda estamos em construção!</h1>
-<h2>Página de detalhes</h2>
+<nav class="title">
+  <h1>Olá, Me conheça melhor</h1>
+  
+</nav>
 
-<div ng-if="pet">
-  <div class="card">
-    <h2>Nome: {{ pet?.name }}</h2>
-    <img src="{{ pet?.img }}" alt="imagem cachorro" />
-    <h3>{{ pet?.description }}</h3>
-   
+
+  <section class="container">
+    
+    <div ng-if="pet" class="left-side">
+      <div class="card1">
+      <img src="{{ pet?.img }}" alt="imagem cachorro" />
+    </div>
   </div>
-</div>
 
+  <div ng-if="pet" class="right-side">
+    <div class="card2">
+      <h2>Nome: {{ pet?.name }}</h2> <br>
+      <h3>{{ pet?.description }}</h3> <br>
+      <button class="btn">Quero adotar</button>
+    </div>
+  </div>
+  
+</section>
