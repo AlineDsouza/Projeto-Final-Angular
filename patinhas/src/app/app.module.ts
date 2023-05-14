@@ -8,6 +8,8 @@ import { LoginModule } from './features/login/login.module';
 import { ContactModule } from './features/contact/contact.module';
 import { PetsModule } from './features/pets/pets.module';
 import { SharedModule } from "./shared/shared.module";
+import { AdocaoModule } from './features/adocao/adocao.module';
+
 
 
 @NgModule({
@@ -24,6 +26,7 @@ import { SharedModule } from "./shared/shared.module";
         ContactModule,
         PetsModule,
         SharedModule,
+        AdocaoModule
        
     ]
 })

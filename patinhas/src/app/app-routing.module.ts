@@ -5,7 +5,7 @@ import { LoginComponent } from './features/login/pages/login/login.component';
 import { ContactComponent } from './features/contact/pages/contact/contact.component';
 import { PetsComponent } from './features/pets/pages/pets/pets.component';
 import { MeConhecaComponent } from './features/pets/pages/me-conheca/me-conheca.component';
-
+import { AdocaoComponent } from './features/adocao/pages/adocao/adocao.component';
 
 
 const routes: Routes = [
@@ -14,7 +14,8 @@ const routes: Routes = [
   {path: 'login', component: LoginComponent},
   {path: 'contact', component: ContactComponent},
   {path: 'pets', component: PetsComponent},
-  {path: 'me-conheca/:petId', component: MeConhecaComponent}
+  {path: 'me-conheca/:petId', component: MeConhecaComponent},
+  {path: 'adocao-form', component: AdocaoComponent }
 ];
 
 @NgModule({

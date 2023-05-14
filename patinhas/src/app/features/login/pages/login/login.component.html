@@ -1,1 +1,19 @@
-<app-entrar></app-entrar>
+<main>
+  <div class="login">
+    <div class="card">
+      <h2>Olá</h2>
+      <h3>Entre com seu login e senha</h3>
+      <form class="login-form">
+        <div class="email">
+          <input type="email" [formControl]="email" placeholder="E-mail" />
+        </div>
+        <div class="password">
+          <input type="password" [formControl]="password" placeholder="Senha" />
+        </div>
+        <p class="error" *ngIf="error">Informações inválidas</p>
+
+        <button type="button" (click)="authenticate()">Entrar</button>
+      </form>
+    </div>
+  </div>
+</main>

@@ -17,6 +17,7 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     SharedModule,
+    RouterModule
   ],
   exports:[
     PetsComponent

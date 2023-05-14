@@ -13,4 +13,8 @@ export class HeaderComponent {
     ngOnInit(): void {
 
     }
+
+    navigateByUrl(url: string){
+      this.router.navigateByUrl(url);
+    }
 }
