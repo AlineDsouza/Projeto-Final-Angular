@@ -1,1 +1,50 @@
-<p>adocao works!</p>
+<main class="title">
+  <h1></h1>
+</main>
+
+<form [formGroup]="adocaoForm" (ngSubmit)="sendForm()">
+  <div class="form-group">
+    {{ adocaoForm.value.name }}
+    <label type="text">Nome do Responsável</label>
+    <input type="text" name="nome" formControlName="name" />
+    {{ adocaoForm.value.adress }}
+    <label>Endereço</label>
+    <input type="text" name="endereco" formControlName="adress" />
+    {{ adocaoForm.value.email }}
+    <label>E-mail</label>
+    <input
+      type="email"
+      name="e-mail"
+      placeholder="digite aqui"
+      formControlName="email"
+    />
+    {{ adocaoForm.value.walk }}
+    <label> Qual o número de passeios diários?</label>
+    <input
+      type="number"
+      name="quantidade"
+      min="1"
+      max="10"
+      formControlName="walk"
+    />
+    <!-- {{ adocaoForm.value.question }} -->
+    <!-- <div class="checkbox" formeControlName="question">
+      <label>Tem condições financeiras de levá-lo ao veterinário?</label> <br />
+      <input type="radio" name="sim" value="sim" />
+      <label> Sim</label><br />
+      <input type="radio" name="nao" value="nao" />
+      <label> Não</label><br />
+    </div> -->
+    {{ adocaoForm.value.routine }}
+    <label type="text">Descreva a rotina diária que seu pet irá seguir </label>
+    <input type="text" name="nome" formControlName="routine" />
+    {{ adocaoForm.valid }}
+    <input
+      type="submit"
+      value="Enviar Formulário"
+      class="btn"
+      (click)="sendForm()"
+      disabled="!adocaoForm.value"
+    />
+  </div>
+</form>

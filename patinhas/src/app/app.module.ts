@@ -9,6 +9,7 @@ import { ContactModule } from './features/contact/contact.module';
 import { PetsModule } from './features/pets/pets.module';
 import { SharedModule } from "./shared/shared.module";
 import { AdocaoModule } from './features/adocao/adocao.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -26,7 +27,8 @@ import { AdocaoModule } from './features/adocao/adocao.module';
         ContactModule,
         PetsModule,
         SharedModule,
-        AdocaoModule
+        AdocaoModule,
+        ReactiveFormsModule
        
     ]
 })
