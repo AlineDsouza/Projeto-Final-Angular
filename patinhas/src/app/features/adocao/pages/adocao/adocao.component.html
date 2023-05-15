@@ -4,13 +4,12 @@
 
 <form [formGroup]="adocaoForm" (ngSubmit)="sendForm()">
   <div class="form-group">
-    {{ adocaoForm.value.name }}
     <label type="text">Nome do Responsável</label>
     <input type="text" name="nome" formControlName="name" />
-    {{ adocaoForm.value.adress }}
+
     <label>Endereço</label>
     <input type="text" name="endereco" formControlName="adress" />
-    {{ adocaoForm.value.email }}
+
     <label>E-mail</label>
     <input
       type="email"
@@ -18,7 +17,7 @@
       placeholder="digite aqui"
       formControlName="email"
     />
-    {{ adocaoForm.value.walk }}
+
     <label> Qual o número de passeios diários?</label>
     <input
       type="number"
@@ -35,10 +34,9 @@
       <input type="radio" name="nao" value="nao" />
       <label> Não</label><br />
     </div> -->
-    {{ adocaoForm.value.routine }}
+
     <label type="text">Descreva a rotina diária que seu pet irá seguir </label>
     <input type="text" name="nome" formControlName="routine" />
-    {{ adocaoForm.valid }}
     <input
       type="submit"
       value="Enviar Formulário"

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { LocalStorageService } from 'src/app/shared/services/local-storage.service';
 import { UsersService } from 'src/app/shared/services/users.service';
 
 @Component({
@@ -15,6 +16,7 @@ export class LoginComponent {
 
 
   constructor(private userService: UsersService,
+    private localStorageService: LocalStorageService,
     private router: Router){}
 
   ngOnInit(): void{
@@ -25,7 +27,8 @@ export class LoginComponent {
   const user = this.userService.getUserByemailAndPassword(this.email.value!, this.password.value!);
 
   if(user){
-    this.router.navigateByUrl('pets');
+    this.localStorageService.user=user;
+    this.router.navigateByUrl('adocao-form');
   }else{
      this.error = true;
   }
