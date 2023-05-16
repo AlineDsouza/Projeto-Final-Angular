@@ -13,7 +13,7 @@ export class RegisterComponent implements OnInit {
 
  }
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+   
   }
 
  titleForm = 'Bem-vindo(a) '; 
@@ -25,5 +25,11 @@ export class RegisterComponent implements OnInit {
   email: new FormControl('', [Validators.required]),
   password: new FormControl('',[Validators.required])
  });
+
+/** 
+saveNewUser(){
+ const newUser =
+} 
+ */
 
 }

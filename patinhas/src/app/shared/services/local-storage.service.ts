@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { User } from '../models/user.model';
+import { Adocao } from '../models/adocao.model';
 
 @Injectable({
   providedIn: 'root'
@@ -23,4 +24,9 @@ export class LocalStorageService {
   public clearCurrentUser(){
     localStorage.removeItem('current_user');
   }
+
+  public addAdocaoForm(userId: number, adocaoForm: Adocao){
+    localStorage.setItem(userId.toString(), JSON.stringify(adocaoForm));
+  }
+
 }

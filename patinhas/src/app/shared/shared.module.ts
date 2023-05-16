@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { HomeContentComponent } from './components/home-content/home-content.component';
 import { MidleContentComponent } from './components/midle-content/midle-content.component';
 import { AboutUsContentComponent } from './components/about-us-content/about-us-content.component';
+import { PhonePipe } from './pipes/phone.pipe';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { AboutUsContentComponent } from './components/about-us-content/about-us-
     HeaderComponent,
     HomeContentComponent,
     MidleContentComponent,
-    AboutUsContentComponent
+    AboutUsContentComponent,
+    PhonePipe
    
   ],
   imports: [
@@ -26,7 +28,8 @@ import { AboutUsContentComponent } from './components/about-us-content/about-us-
     FooterComponent,
     HomeContentComponent,
     MidleContentComponent,
-    AboutUsContentComponent
+    AboutUsContentComponent,
+    PhonePipe
    ]
 })
 export class SharedModule { }

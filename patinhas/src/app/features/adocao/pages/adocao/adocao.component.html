@@ -32,14 +32,6 @@
       max="10"
       formControlName="walk"
     />
-    <!-- {{ adocaoForm.value.question }} -->
-    <!-- <div class="checkbox" formeControlName="question">
-      <label>Tem condições financeiras de levá-lo ao veterinário?</label> <br />
-      <input type="radio" name="sim" value="sim" />
-      <label> Sim</label><br />
-      <input type="radio" name="nao" value="nao" />
-      <label> Não</label><br />
-    </div> -->
 
     <label type="text">Descreva a rotina diária que seu pet irá seguir </label>
     <input type="text" name="nome" formControlName="routine" />
@@ -48,7 +40,6 @@
       value="Enviar Formulário"
       class="btn"
       (click)="sendForm()"
-      disabled="!adocaoForm.value"
     />
   </div>
 </form>

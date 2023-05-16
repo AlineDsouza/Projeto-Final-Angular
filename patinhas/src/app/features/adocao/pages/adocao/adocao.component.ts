@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup,FormControl, Validators } from '@angular/forms';
 import { LocalStorageService } from 'src/app/shared/services/local-storage.service';
+import { Adocao } from '../../../../shared/models/adocao.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-adocao',
@@ -9,7 +11,8 @@ import { LocalStorageService } from 'src/app/shared/services/local-storage.servi
 })
 export class AdocaoComponent implements OnInit{
  
-  constructor(private localStorageService: LocalStorageService){
+  constructor(private localStorageService: LocalStorageService,
+    private router: Router){
 
   }
   
@@ -35,6 +38,10 @@ export class AdocaoComponent implements OnInit{
   }
 
   sendForm(){
-    console.log(this.adocaoForm.valid);
+    const user = this.localStorageService.user;
+    const adocao = this.adocaoForm.value as Adocao;
+    this.localStorageService.addAdocaoForm(user.id,adocao);
+    this.router.navigateByUrl('return-contact');
   }
 }
+
