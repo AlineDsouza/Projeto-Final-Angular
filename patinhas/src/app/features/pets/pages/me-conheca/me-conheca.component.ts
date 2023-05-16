@@ -8,7 +8,8 @@ import { Pet } from '../../models/pet.model';
   styleUrls: ['./me-conheca.component.scss']
 })
 export class MeConhecaComponent implements OnInit {
-  
+  titlePets = 'Olá, Me conheça melhor';
+
   pet?: Pet;
 
   constructor(

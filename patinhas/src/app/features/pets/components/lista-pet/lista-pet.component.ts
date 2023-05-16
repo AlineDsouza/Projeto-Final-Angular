@@ -10,6 +10,7 @@ import { Router } from '@angular/router';
 })
 export class ListaPetComponent {
 
+  titleList = 'Lista de amigos';
   pets: Array<Pet> = this.listPetsService.getPets();
   
   constructor(

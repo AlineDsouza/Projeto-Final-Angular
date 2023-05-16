@@ -10,13 +10,13 @@ export class PetsService {
     {
       id: 1,
       name: 'Lua',
-      description: 'Amável, adora pesssoas e outros pets',
+      description: 'Popular, amigável e inteligente. Excelente companheira e possue uma personalidade afetuosa.',
       img: 'https://images.pexels.com/photos/4587971/pexels-photo-4587971.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     },
     {
       id: 2,
       name: 'Pingo',
-      description: 'Adora dormir, criançãs  e passeios',
+      description: ' Enérgico e amigável, adora criançãs  e passeios',
       img: 'https://images.pexels.com/photos/4588435/pexels-photo-4588435.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     },
     {
@@ -28,37 +28,37 @@ export class PetsService {
     {
       id: 4,
       name: 'Peach',
-      description: 'Adora pesssoas e  brincar na água ',
+      description: 'Ama brincar com outros pets',
       img: 'https://images.pexels.com/photos/16623449/pexels-photo-16623449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     },
     {
       id: 5,
       name: 'Sasha',
-      description: 'Adora pesssoas e  brincar na água ',
+      description: 'Companhia adorável, com um temperamento doce ',
       img: 'https://images.pexels.com/photos/895259/pexels-photo-895259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     },
     {
       id: 6,
       name: 'Tico e Teco',
-      description: 'Irmãos inseparáveis',
+      description: 'Irmãos inseparáveis. Pequenos, porém cheios de personalidade',
       img: 'https://images.pexels.com/photos/4000092/pexels-photo-4000092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     },
     {
       id: 7,
       name: 'Nic',
-      description: 'Adora pesssoas e  brincar na água ',
+      description: 'Gosta de gatos, pesssoas e  brincar na água ',
       img: 'https://images.pexels.com/photos/16652365/pexels-photo-16652365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     },
     {
       id: 8,
       name: 'Jabuticaba',
-      description: 'Adora pesssoas e  brincar na água ',
+      description: 'Ama frutas e sonecas longas',
       img: 'https://images.pexels.com/photos/16652415/pexels-photo-16652415.jpeg?auto=compress&cs=tinysrgb&w=1600'
     },
     {
       id: 9,
       name: 'Batman',
-      description: 'Adora pesssoas e  brincar na água ',
+      description: 'Porte pequeno, confiante e corajoso',
       img: 'https://images.pexels.com/photos/6959131/pexels-photo-6959131.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     },
     {
@@ -76,25 +76,25 @@ export class PetsService {
     {
       id: 12,
       name: 'Xena',
-      description: 'Adora pesssoas e  brincar na água ',
+      description: 'Carinhosa, ama passear, leal e adora outros pets',
       img: 'https://images.pexels.com/photos/9862782/pexels-photo-9862782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     },
     {
       id: 13,
       name: 'Tio',
-      description: 'Adora pesssoas e  brincar na água ',
+      description: 'Ama sonecas, brincar com amigos e é companheiro',
       img: 'https://images.pexels.com/photos/1557178/pexels-photo-1557178.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     },
     {
       id: 14,
       name: 'Hanah',
-      description: 'Adora pesssoas e  brincar na água ',
+      description: 'Protetora, amorosa e cheia de amor ',
       img: 'https://images.pexels.com/photos/3090873/pexels-photo-3090873.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load'
     },
     {
       id: 15,
       name: 'Azeitona',
-      description: 'Adora pesssoas e  brincar na água ',
+      description: 'Ama pesssoas e  brincar na água ',
       img: 'https://images.pexels.com/photos/3361714/pexels-photo-3361714.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load'
     }
     

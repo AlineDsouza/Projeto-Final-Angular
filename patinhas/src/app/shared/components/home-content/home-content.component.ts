@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./home-content.component.scss']
 })
 export class HomeContentComponent {
+ constructor(){
 
+ }
+
+ firstTitle = 'Descubra aqui seu próximo amigo!';
 }

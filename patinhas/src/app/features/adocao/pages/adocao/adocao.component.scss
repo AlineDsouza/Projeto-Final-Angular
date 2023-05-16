@@ -2,6 +2,14 @@
    margin: 0;
    padding: 0;
 }
+ .title{
+        color: rgb(45, 6, 73);
+        margin: 2rem;
+        padding: 2rem;
+        text-align: center;
+        font-size: 1.2rem;
+       
+    }
 form{
     width: 450px;
     margin: auto;
@@ -24,9 +32,35 @@ form{
     width: 50%;
     font-size: 1rem;
      padding-bottom: 2rem;
+     
 }
 input{
     font-size: 20px;
     height: 30px;
     
+}
+.step{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+}
+.container-cards{
+    display: flex;   
+}
+.card{
+    background-color:#5a007e70;
+    margin: 2rem;
+    padding: 2rem;
+    width: 50%;
+    h1{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 1rem; 
+    }
+    p{
+        text-align: center;
+        margin-bottom: 1rem ;
+    }
 }

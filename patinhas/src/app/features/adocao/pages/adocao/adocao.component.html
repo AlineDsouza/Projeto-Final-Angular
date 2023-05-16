@@ -1,5 +1,6 @@
 <main class="title">
-  <h1></h1>
+  <h1>{{titleForm}}</h1>
+ 
 </main>
 
 <form [formGroup]="adocaoForm" (ngSubmit)="sendForm()">
@@ -17,6 +18,11 @@
       placeholder="digite aqui"
       formControlName="email"
     />
+
+    <label type="text">Salário aproximado</label>
+    <input type="number"
+     name="salario" 
+     formControlName="averageWage" />
 
     <label> Qual o número de passeios diários?</label>
     <input
@@ -46,3 +52,18 @@
     />
   </div>
 </form>
+
+
+<section class="step">
+  <article class=" container-cards">
+      <div class="card">
+          <h1>Nossa missão</h1>
+          <p>{{ourMission}}</p>
+      </div>
+      <div class="card">
+          <h1>Adoção responsável</h1>
+          <p>{{card}}</p>
+      </div>
+     
+  </article>
+</section>

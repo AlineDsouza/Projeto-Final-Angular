@@ -7,13 +7,14 @@ import { HomeContentComponent } from './components/home-content/home-content.com
 import { MidleContentComponent } from './components/midle-content/midle-content.component';
 import { AboutUsContentComponent } from './components/about-us-content/about-us-content.component';
 
+
 @NgModule({
   declarations: [
     FooterComponent,
     HeaderComponent,
     HomeContentComponent,
     MidleContentComponent,
-    AboutUsContentComponent,
+    AboutUsContentComponent
    
   ],
   imports: [

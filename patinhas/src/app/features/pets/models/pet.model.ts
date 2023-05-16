@@ -3,4 +3,6 @@ export interface Pet{
     name: string;
     description: string;
     img: string;
+    
+
 }

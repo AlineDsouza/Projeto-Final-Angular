@@ -2,19 +2,22 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AdocaoComponent } from './pages/adocao/adocao.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ReturnComponent } from './pages/return/return.component';
 
 
 
 @NgModule({
   declarations: [
-    AdocaoComponent
+    AdocaoComponent,
+    ReturnComponent
   ],
   imports: [
     CommonModule,
     ReactiveFormsModule
   ],
   exports:[
-    AdocaoComponent
+    AdocaoComponent,
+    ReturnComponent
   ]
 })
 export class AdocaoModule { }

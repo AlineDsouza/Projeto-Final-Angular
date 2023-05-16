@@ -9,7 +9,8 @@ import { UsersService } from 'src/app/shared/services/users.service';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent {
-
+  
+  titleLogin = 'Entre com seu login e senha';
   email = new FormControl ('', [Validators.email,Validators.required]);
   password = new FormControl ('', [Validators.required]);
   error = false;

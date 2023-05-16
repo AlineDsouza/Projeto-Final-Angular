@@ -13,12 +13,16 @@ export class AdocaoComponent implements OnInit{
 
   }
   
+  titleForm = 'Preencha o formulário de adoção';
+  ourMission = 'Na nossa organização de adoção responsável, temos uma missão clara e apaixonada: salvar vidas e promover o bem-estar dos animais de estimação. Estamos comprometidos em encontrar lares amorosos e permanentes para aqueles que mais precisam, garantindo que cada animal tenha a oportunidade de viver uma vida plena e feliz.';
+  card = 'Obrigado por visitar nosso site de adoção responsável. Estamos ansiosos para ajudá-lo a encontrar o companheiro perfeito e testemunhar a alegria que a adoção traz tanto para você quanto para o animal adotado. ';
+
   adocaoForm = new FormGroup({
     name : new FormControl('', [Validators.required]),
     adress: new FormControl('', [Validators.required]),
     email: new FormControl('', [Validators.required]),
     walk: new FormControl('', [Validators.required]),
-    // question: new FormControl('', [Validators.required]),
+    averageWage: new FormControl('', [Validators.required]),
     routine: new FormControl('', [Validators.required]),
   });
 
