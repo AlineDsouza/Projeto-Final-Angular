@@ -34,4 +34,9 @@ export class LoginComponent {
      this.error = true;
   }
   }
+
+navigateByUrl(){
+    this.router.navigateByUrl('/register');
+}
+
 }

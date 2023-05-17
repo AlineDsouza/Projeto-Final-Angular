@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class FooterComponent {
  todayDate = new Date();
  
+ title = 'Patinhas';
 }

@@ -2,12 +2,20 @@
     background-color:rgb(229, 220, 236) ;
     height: 500px;
     h1{
-        color: white;
+        width: 550px;
+        color: rgb(33, 7, 70);
         font-size: 4rem;
         font-weight: bold;
         top: 30%;
-        left: 20%;
+        left: 45%;
         position: absolute;
+        box-shadow:  10px 0px  rgba(62, 0, 128, 0.785);
     }
 }
-
+img{
+    min-width: 920px;
+    box-sizing: border-box;
+    width: 62%;
+    padding: auto;
+    margin: auto;
+}

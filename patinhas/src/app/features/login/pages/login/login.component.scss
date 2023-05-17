@@ -7,8 +7,8 @@ main{
     align-items: center;
 }
 .login{
-    color: white;
-    background-color: #5a007edc;
+    color: rgb(0, 0, 0);
+    background-color: #5a007e74;
     width: 600px;
     height: 500px;
     border-radius: 4px;
@@ -19,10 +19,11 @@ main{
     text-align: center;
     h2{
         padding-top: 3rem;
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     h3{
-        padding-bottom: 3rem;
+        font-size: 1.2rem;
+        padding-bottom: 2rem;
     }
 }
 
@@ -38,7 +39,7 @@ input {
 button {
     margin-top: 2rem;
     cursor: pointer;
-    background-color: #4caf4f; 
+    background-color: #399e3c; 
     border: none;
     color: white;
     padding: 15px 60px;
@@ -46,4 +47,8 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 1rem;
+}
+span{
+    color: #7a02a5;
+    cursor: pointer;
 }
