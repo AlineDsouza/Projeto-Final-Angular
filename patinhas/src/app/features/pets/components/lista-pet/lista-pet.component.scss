@@ -5,12 +5,12 @@
     font-family: sans-serif;
 }
 h1{
+    font-size: 2.2rem;
     text-align: center;
     color: rgb(40, 3, 65);
     padding-top: 5rem;
     padding-bottom: 3rem;
 }
-
 .container{
     margin: auto;
     width: 80%;
@@ -22,7 +22,6 @@ h1{
     gap: 10px;
     color: rgb(45, 6, 73);
     padding-bottom: 2rem;
-
 }
 .card {
     width: 300px;
@@ -32,8 +31,7 @@ h1{
     background-color: rgba(238, 238, 238, 0.555);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;   
 }
 img{
     margin: 10px;
