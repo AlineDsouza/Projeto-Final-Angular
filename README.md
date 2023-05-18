@@ -7,7 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
  
 Projeto final da School de Angular,  tema livre e com aplicações do conteúdo estudado ao longo de todo o curso.
 
-## Ferramentas 
+## Ferramentas & Tecnologias
 ![image](https://github.com/AlineDsouza/Projeto-Final-Angular/assets/50629052/fa43311a-a3a9-4dc5-8f11-685be355a81c)
 ![image](https://github.com/AlineDsouza/Projeto-Final-Angular/assets/50629052/444d1415-7e98-454a-8343-77d52d2cff0d)
 ![image](https://github.com/AlineDsouza/Projeto-Final-Angular/assets/50629052/a03f46b2-43ec-4f91-be5f-59710967bc98)
