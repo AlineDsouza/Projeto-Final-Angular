@@ -25,7 +25,7 @@ Login:  joao@email.com
 
 Password: 0101
 
- ## Deploy do projeto: https://projeto-patinhas.vercel.app/home
+ ## Link do projeto: https://projeto-patinhas.vercel.app/home
 
 ## Development server
 
