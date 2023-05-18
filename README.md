@@ -15,9 +15,6 @@ Projeto final da School de Angular,  tema livre e com aplicações do conteúdo 
 ![image](https://github.com/AlineDsouza/Projeto-Final-Angular/assets/50629052/2024d19a-0ddf-46c7-8575-a7139750a778)
 ![image](https://github.com/AlineDsouza/Projeto-Final-Angular/assets/50629052/bf416974-1980-414c-9f0c-503569981635)
 ![image](https://github.com/AlineDsouza/Projeto-Final-Angular/assets/50629052/ad10d381-28ca-4231-89aa-69c911e69252)
-
-
-
 ## Descrição 
 
 📍 O projeto de adoção de cachorros é um site dedicado a facilitar o processo de adoção responsável de cães. Nosso objetivo é conectar cães abandonados e resgatados com famílias amorosas e comprometidas em proporcionar um lar seguro e carinhoso.
@@ -25,9 +22,10 @@ Através do nosso site, esperamos promover a conscientização sobre a importân
 
 ## Acesso - Login 🔑
 Login:  joao@email.com
+
 Password: 0101
 
-Acessar o projeto: https://projeto-patinhas.vercel.app/home
+ ## Deploy do projeto: https://projeto-patinhas.vercel.app/home
 
 ## Development server
 
