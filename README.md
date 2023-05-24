@@ -7,14 +7,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
  
 Projeto final da School de Angular,  tema livre e com aplicações do conteúdo estudado ao longo de todo o curso.
 
-## Ferramentas & Tecnologias
-![image](https://github.com/AlineDsouza/Projeto-Final-Angular/assets/50629052/fa43311a-a3a9-4dc5-8f11-685be355a81c)
-![image](https://github.com/AlineDsouza/Projeto-Final-Angular/assets/50629052/444d1415-7e98-454a-8343-77d52d2cff0d)
-![image](https://github.com/AlineDsouza/Projeto-Final-Angular/assets/50629052/a03f46b2-43ec-4f91-be5f-59710967bc98)
-![image](https://github.com/AlineDsouza/Projeto-Final-Angular/assets/50629052/4b9cabd6-1687-4687-b5c9-4c7e58c71357)
-![image](https://github.com/AlineDsouza/Projeto-Final-Angular/assets/50629052/2024d19a-0ddf-46c7-8575-a7139750a778)
-![image](https://github.com/AlineDsouza/Projeto-Final-Angular/assets/50629052/bf416974-1980-414c-9f0c-503569981635)
-![image](https://github.com/AlineDsouza/Projeto-Final-Angular/assets/50629052/ad10d381-28ca-4231-89aa-69c911e69252)
 ## Descrição 
 
 📍 O projeto de adoção de cachorros é um site dedicado a facilitar o processo de adoção responsável de cães. Nosso objetivo é conectar cães abandonados e resgatados com famílias amorosas e comprometidas em proporcionar um lar seguro e carinhoso.
@@ -26,6 +18,15 @@ Login:  joao@email.com
 Password: 0101
 
  ## Link do projeto: https://projeto-patinhas.vercel.app/home
+
+## Ferramentas & Tecnologias
+![image](https://github.com/AlineDsouza/Projeto-Final-Angular/assets/50629052/fa43311a-a3a9-4dc5-8f11-685be355a81c)
+![image](https://github.com/AlineDsouza/Projeto-Final-Angular/assets/50629052/444d1415-7e98-454a-8343-77d52d2cff0d)
+![image](https://github.com/AlineDsouza/Projeto-Final-Angular/assets/50629052/a03f46b2-43ec-4f91-be5f-59710967bc98)
+![image](https://github.com/AlineDsouza/Projeto-Final-Angular/assets/50629052/4b9cabd6-1687-4687-b5c9-4c7e58c71357)
+![image](https://github.com/AlineDsouza/Projeto-Final-Angular/assets/50629052/2024d19a-0ddf-46c7-8575-a7139750a778)
+![image](https://github.com/AlineDsouza/Projeto-Final-Angular/assets/50629052/bf416974-1980-414c-9f0c-503569981635)
+![image](https://github.com/AlineDsouza/Projeto-Final-Angular/assets/50629052/ad10d381-28ca-4231-89aa-69c911e69252)
 
 ## Development server
 
